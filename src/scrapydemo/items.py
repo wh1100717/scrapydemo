@@ -14,7 +14,7 @@ class AppItem(Item):
     company = Field()
     star_rating = Field()
     price = Field()
-
+    app_url = Field()
 #    href = Field()
 #    subtitle = Field()
 #    description = Field()
