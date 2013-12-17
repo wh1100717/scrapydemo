@@ -35,3 +35,6 @@ nosetests.xml
 .project
 .pydevproject
 /nbproject/private/
+.json
+.data
+.log
