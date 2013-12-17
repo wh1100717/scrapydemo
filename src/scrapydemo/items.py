@@ -10,6 +10,10 @@ class AppItem(Item):
     # name = Field()
     name = Field()
     cover = Field()
+    detail_page = Field()
+    company = Field()
+    star_rating = Field()
+    price = Field()
 
 #    href = Field()
 #    subtitle = Field()
