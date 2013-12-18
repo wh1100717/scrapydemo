@@ -21,3 +21,6 @@ class AppItem(Item):
 #    price = Field()
 #    author = Field()
 #    lastUpdate = Field()
+
+class ImgItem():
+    url = Field()
