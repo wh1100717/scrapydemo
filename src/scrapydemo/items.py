@@ -8,12 +8,12 @@ from scrapy.item import Item, Field
 class AppItem(Item):
     # define the fields for your item here like:
     # name = Field()
-    name = Field()
-    cover = Field()
-    detail_page = Field()
-    company = Field()
-    star_rating = Field()
-    price = Field()
+#    name = Field()
+#    cover = Field()
+#    detail_page = Field()
+#    company = Field()
+#    star_rating = Field()
+#    price = Field()
     app_url = Field()
 #    href = Field()
 #    subtitle = Field()

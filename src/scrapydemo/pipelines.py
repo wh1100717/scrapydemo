@@ -5,4 +5,5 @@
 
 class ScrapydemoPipeline(object):
     def process_item(self, item, spider):
+        item['app_url'] = "http://www.appstar.com.cn" + item['app_url']
         return item
