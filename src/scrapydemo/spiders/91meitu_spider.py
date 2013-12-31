@@ -2,7 +2,7 @@ from scrapy.spider import BaseSpider
 from scrapy.selector import Selector
 from scrapy.http import Request
 
-from scrapydemo.items import  MeituItem
+from scrapydemo.items import  ImgItem
 
 class MeituSpider(BaseSpider):
     name = "91meitu"
